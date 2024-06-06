@@ -8,7 +8,7 @@ let mobileMenu = document.querySelector('#mobileMenu');
 hamburguerButton.addEventListener('click', function(){
     mobileMenu.classList.add('flex')
 })
-
+//  botão voltar topo
 closeButton.addEventListener('click', function(){
     mobileMenu.classList.remove('flex')
 })
